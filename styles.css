@@ -227,7 +227,7 @@ ul li a {
 /* menu 6 */
 
 .menu6 li a {
-  transition: all 0.5s;
+  transition: all 1s;
 }
 
 .menu6 li a:hover {
@@ -235,4 +235,18 @@ ul li a {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   transform: scale(1.1);
+}
+
+/* menu 7 */
+
+.menu7 li a {
+  transition: all 1s;
+}
+
+.menu7 li a:hover {
+  background-image: url(https://media.giphy.com/media/LriNaxs61RKYMlrZuY/giphy.gif);
+  background-size: 100%;
+  background-position: 100% 50%;
+  background-repeat: no-repeat;
+  border-radius: 8px;
 }
