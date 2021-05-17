@@ -27,6 +27,7 @@ ul li a {
   margin: 20px 20px;
   position: relative;
   transition: all 0.5s;
+  font-family: verdana;
 }
 
 /* menu 1 */
@@ -38,7 +39,7 @@ ul li a {
   left: 0;
   width: 100%;
   height: 2px;
-  background-color: #3d3d3d;
+  background-color: #b100e8;
   transform: scaleX(0);
   transition: all 0.5s;
   transform-origin: left;
@@ -56,7 +57,7 @@ ul li a {
   left: 0;
   width: 100%;
   height: 2px;
-  background-color: #3d3d3d;
+  background-color: #b100e8;
   transform: scaleX(0);
   transition: all 0.5s;
   transform-origin: right;
@@ -183,4 +184,55 @@ ul li a {
   top: 75%;
   background-color: #3dccc7;
   transition-delay: 0.45s;
+}
+
+/* menu 5 */
+
+.menu5 li a {
+  position: relative;
+}
+
+.menu5 li a:before {
+  content: "";
+  width: 0;
+  height: 5px;
+  background-color: #00bcd4;
+  position: absolute;
+  top: 110%;
+  left: 0;
+  transition: all 0.5s;
+}
+
+.menu5 li a:after {
+  content: "";
+  width: 0;
+  height: 5px;
+  background-color: #f0f;
+  position: absolute;
+  top: 110%;
+  right: 0;
+  transition: all 0.5s;
+}
+
+.menu5 li a:hover:before {
+  width: 50%;
+  transform: translateX(100%);
+}
+
+.menu5 li a:hover:after {
+  width: 50%;
+  transform: translateX(-100%);
+}
+
+/* menu 6 */
+
+.menu6 li a {
+  transition: all 0.5s;
+}
+
+.menu6 li a:hover {
+  background: -webkit-linear-gradient(#eee, #c200fb);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transform: scale(1.1);
 }
